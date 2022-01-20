@@ -54,7 +54,7 @@ body {
 }
 
 .navbar .btn-navbar .icon-bar {
-  background: url(/btn.png)
+  background-color: #151f31;
 }
 
 .navbar .nav>li>a {
