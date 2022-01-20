@@ -47,7 +47,9 @@ body {
 }
 
 .navbar .btn-navbar, .navbar .btn-navbar:hover {
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  background: url(/btn.png)
+
 }
 
 .navbar .btn-navbar .icon-bar {
