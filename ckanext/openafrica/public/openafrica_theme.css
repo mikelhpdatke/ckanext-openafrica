@@ -51,18 +51,19 @@ body {
 }
 
 .navbar .btn-navbar .icon-bar {
-  background-color: #151f31;
+  /* background-color: #151f31; */
+  background: url(/btn.png)
 }
 
 .navbar .nav>li>a {
-  color: #ffffff;
+  color: #e4dede;
   text-shadow: none;
   padding: 10px 15px 0px;
   letter-spacing: 1px;
 }
 
 .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
-  color: #ffffff;
+  color: #3a3737;
   text-decoration: none;
 }
 
