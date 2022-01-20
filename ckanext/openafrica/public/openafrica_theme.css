@@ -47,13 +47,13 @@ body {
 }
 
 .navbar .btn-navbar, .navbar .btn-navbar:hover {
-  /* background: #FFFFFF; */
-  background: url(/btn.png)
-
+  background: url(/btn.png);
+  background-position: center;
+  background-size: 40px;
+  background-repeat: no-repeat;
 }
 
 .navbar .btn-navbar .icon-bar {
-  /* background-color: #151f31; */
   background: url(/btn.png)
 }
 
