@@ -3,13 +3,13 @@
   <div class="footer-links">
     <div class="logo">
       <a href="http://vasi.gov.vn/Pages/trang-chu.aspx" target="_blank" rel="noopener">
-        <img src="/images/logos/vasi1.png" style="height: 100px; text-align:center;" />
+        <img src="/images/logos/vasi1.png" style="height: 150px; text-align:center;" />
       </a>
       <h5>{{h.current_year()}} Vietnam Administration of Seas and Islands</h5>
     </div>
     <div class="all-links">
       <ul class="unstyled">
-              <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li>
+              <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About') }}</a></li>
               <li><a href="/about/terms-and-conditions">{{ _('Terms and Conditions') }}</a></li>
               <li><a href="/about/accessibility">{{ _('Accessibility') }}</a></li>
               <li><a href="/about/code-of-conduct">{{ _('Code of conduct') }}</a></li>
@@ -18,12 +18,12 @@
               <li><a href="/about/privacy">{{ _('Privacy') }}</a></li>
               <li><a href="/about/contact-us">{{ _('Contact us') }}</a></li>
         {% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
-        <li><a href="{{ api_url }}">{{ _('CKAN API') }}</a></li>
+        <li><a href="{{ api_url }}">{{ _('Open data API') }}</a></li>
       </ul>
 
       <ul class="unstyled">
         <li>{% snippet "snippets/language_selector.html" %}</li>
-        <li><a href="http://ckan.org">Powered by CKAN</a></li>
+        <li><a href="https://aisoft.com.vn/">Powered by A.ISoft</a></li>
       </ul>
     </div>
   </div>
