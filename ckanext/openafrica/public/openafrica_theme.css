@@ -46,6 +46,18 @@ body {
   right: 25px;
 }
 
+.wrapper:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  border: none;
+  z-index: 1;
+}
+
 .navbar .btn-navbar, .navbar .btn-navbar:hover {
   background: url(/btn.png);
   background-position: center;
