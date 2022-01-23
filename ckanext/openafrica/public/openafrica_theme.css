@@ -16,9 +16,9 @@ body {
    ======================================================================== */
 
 .navbar .brand {
-  background-color: #151f31;
+  /* background-color: #151f31; */
   padding: 15px 83px;
-  max-width: 194px;
+  max-width: 350px;
 }
 
 .navbar-inner {
