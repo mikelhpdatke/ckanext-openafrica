@@ -147,11 +147,12 @@ width: auto !important;
   padding: 130px 0px;
   margin: 0px;
   height: auto;
-  background: url(/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background: url(/bg.jpg);
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -o-background-size: cover; */
+  /* background-size: cover; */
+  background-position: 50% 80%;
 }
 
 .homepage .joined-orgs-msg {
