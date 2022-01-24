@@ -1,4 +1,4 @@
-Thêm đoạn code sau vào Dockerfile ckan2.8/ckan/Dockerfile
+Thêm đoạn code sau vào Dockerfile trong thư mục có đường dẫn /ckan/Dockerfile trong repo của bạn
 
 ```
 RUN pip install -e git+https://github.com/mikelhpdatke/ckanext-openafrica.git@new_theme#egg=openafrica
