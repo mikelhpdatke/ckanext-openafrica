@@ -47,7 +47,7 @@ body {
   right: 25px;
 }
 
-.wrapper:before {
+/* .wrapper:before {
   content: '';
   display: block;
   position: absolute;
@@ -57,7 +57,7 @@ body {
   width: 25%;
   border: none;
   z-index: 1;
-}
+} */
 
 .navbar .btn-navbar, .navbar .btn-navbar:hover {
   background: #FFFFFF;
